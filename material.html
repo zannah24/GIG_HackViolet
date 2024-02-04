@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="C:\Users\zanna\Downloads\favicon\favicon-32x32.png">
+
+    <title>Git it Girl - Material</title>
+    <style>
+      body {
+        font-family: 'Better Together', cursive;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+	  header {
+            background-color: teal;
+            padding: 10px;
+            display: flex;
+			height:100px;
+			
+            justify-content: space-between;
+            align-items: center;
+        }
+        .account-text {
+            color: honeydew;
+            cursor: pointer;
+            margin-right: 100px;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: black;
+            color: white;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .gig-text {
+            font-size: 36px;
+            text-align: center;
+            padding: 20px;
+            color: honeydew;
+        }
+        
+        .side-panel {
+            background-color: honeydew;
+            padding: 20px;
+            height: 100vh;
+            width: 120px;
+            position: absolute;
+            top: 120px;
+            left: 0;
+        }
+        .side-panel a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100px;
+        }
+        .side-panel a:hover {
+            background-color: teal;
+            color: white;
+            width: 100;
+            
+        }
+      .material {
+        padding: 20px;
+        text-align: center;
+        margin: 20px auto;
+        width: 800px;
+		height: 100vh;
+      }
+      .material h1 {
+        margin-top: 0;
+        font-size: 36px;
+        text-align: center;
+        padding: 20px;
+        background-color: honeydew;
+        color: teal;
+      }
+      .material h2 {
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+        color: teal;
+      }
+      .material ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .material li {
+        margin-bottom: 20px;
+      }
+      .material a {
+        text-decoration: none;
+        color: teal;
+      }
+      .material a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+  
+	<header>
+        <div class="gig-text">GIT.IT.GIRL</div>
+        <div class="dropdown">
+            <div class="account-text" id="account-text">Account</div>
+            <div class="dropdown-menu">
+                <a href="savedevents.html">Saved Events</a>
+                <a href="signin.html">Sign In</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+	
+    <div class="material">
+      <h1>Material</h1>
+      
+      <h3>Interview Preparation Videos</h3>
+      <ul>
+        <li><a href="https://youtu.be/sYV37t8vDgQ?si=juqgsmLxlYWYA9Ku" target="_blank">Interview Tips and Tricks</a></li>
+        <li><a href="https://youtu.be/UFSQwVFRLtM?si=w7A1tAJlgIzTGAXg" target="_blank">Last Minute Interview Preparation</a></li>
+        <!-- Add more interview preparation videos here -->
+      </ul>
+      <h3>Tech-Related TED Talks</h3>
+      <ul>
+        <li><a href="https://youtu.be/QijH4UAqGD8?si=lVtcS7tbtuzyGElW" target="_blank">Get comfortable with being uncomfortable - Luvvie Jones</a></li>
+        <li><a href="https://youtu.be/tRdrAdQbyPI?si=Pe0LY-CjPOSw3BZB" target="_blank">The accidental women in tech - Sabina Ciofu</a></li>
+        <!-- Add more tech-related TED Talks here -->
+      </ul>
+      <h3>Resume Writing Videos</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/live/n0RYvLqeQkU?si=x8PhRLDndenssATD" target="_blank">Resume and Cover Letter Writing Tips</a></li>
+        <li><a href="https://youtu.be/Tt08KmFfIYQ?si=IwSrzsO7GyywPS8a" target="_blank">5 Golden Rules of Resume Building</a></li>
+        <!-- Add more resume writing blogs here -->
+      </ul>
+    </div>
+	
+	<header>
+  <div class="side-panel">
+    <a href="home.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="opportunities.html">Opportunities</a>
+    <a href="material.html">Material</a>
+    <a href="aboutus.html">About Us</a>
+  </div>
+  </header>
+  </body>
+</html>
