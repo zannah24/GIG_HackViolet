@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="C:\Users\zanna\Downloads\favicon\favicon-32x32.png">
+
+    <title>GET IT GIRL - Sign Up</title>
+    <style>
+      body {
+        font-family: 'Better Together', cursive;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+	  
+	  header {
+            background-color: teal;
+            padding: 10px;
+            display: flex;
+			height:100px;
+			
+            justify-content: space-between;
+            align-items: center;
+        }
+        .account-text {
+            color: honeydew;
+            cursor: pointer;
+            margin-right: 100px;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: black;
+            color: white;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .gig-text {
+            font-size: 36px;
+            text-align: center;
+            padding: 20px;
+            color: honeydew;
+        }
+        
+        .side-panel {
+            background-color: honeydew;
+            padding: 20px;
+            height: 100vh;
+            width: 120px;
+            position: absolute;
+            top: 120px;
+            left: 0;
+        }
+        .side-panel a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100px;
+        }
+        .side-panel a:hover {
+            background-color: teal;
+            color: white;
+            width: 100;
+            
+        }
+	  
+      .sign-up {
+        background-color: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+        margin: 20px auto;
+        width: 400px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .sign-up h2 {
+        margin-top: 0;
+      }
+      .sign-up form {
+        margin-top: 20px;
+      }
+      .sign-up label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      .sign-up input[type="text"],
+      .sign-up input[type="email"],
+      .sign-up input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .sign-up select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .sign-up button[type="submit"] {
+        padding: 8px 16px;
+        background-color: teal;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .sign-up button[type="submit"]:hover {
+        background-color: darkgray;
+      }
+    </style>
+  </head>
+  <body>
+  
+	<header>
+        <div class="gig-text">GIT.IT.GIRL</div>
+        <div class="dropdown">
+            <div class="account-text" id="account-text">Account</div>
+            <div class="dropdown-menu">
+                <a href="savedevents.html">Saved Events</a>
+                <a href="signin.html">Sign In</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+	
+    <div class="sign-up">
+      <h2>Sign Up</h2>
+      <form>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required />
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required />
+        <label for="country">Country:</label>
+        <select id="country">
+          <option value="">Select a country</option>
+          <option value="US">United States</option>
+          <option value="CA">Canada</option>
+          <option value="UK">United Kingdom</option>
+          <option value="AU">Australia</option>
+          <!-- Add more countries as needed -->
+        </select>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+        <label for="re-enter-password">Re-enter Password:</label>
+        <input type="password" id="re-enter-password" required />
+        <button type="submit">Create Account</button>
+      </form>
+	  <p>Already have an account? <a href="signin.html">Sign In</a></p>
+    </div>
+	
+	
+	<div class="side-panel">
+    <a href="home.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="opportunities.html">Opportunities</a>
+    <a href="material.html">Material</a>
+    <a href="aboutus.html">About Us</a>
+  </div>
+  
+  </body>
+</html>

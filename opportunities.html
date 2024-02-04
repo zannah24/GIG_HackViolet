@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/x-icon" href="C:\Users\zanna\Downloads\favicon\favicon-32x32.png">
+    <title>Git it Girl - Opportunities</title>
+    <style>
+      body {
+        font-family: 'Better Together', cursive;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+      }
+	  header {
+            background-color: teal;
+            padding: 10px;
+            display: flex;
+			height:100px;
+			
+            justify-content: space-between;
+            align-items: center;
+        }
+        .account-text {
+            color: honeydew;
+            cursor: pointer;
+            margin-right: 100px;
+        }
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-menu a:hover {
+            background-color: black;
+            color: white;
+        }
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .gig-text {
+            font-size: 36px;
+            text-align: center;
+            padding: 20px;
+            color: honeydew;
+        }
+        
+        .side-panel {
+            background-color: honeydew;
+            padding: 20px;
+            height: 100vh;
+            width: 120px;
+            position: absolute;
+            top: 120px;
+            left: 0;
+        }
+        .side-panel a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100px;
+        }
+        .side-panel a:hover {
+            background-color: teal;
+            color: white;
+            width: 100;
+            
+        }
+      .opportunities {
+        padding: 20px;
+        text-align: center;
+        margin: 20px auto;
+        width: 800px;
+		height:100vh;
+      }
+      .opportunities h1 {
+        margin-top: 0;
+        font-size: 36px;
+        text-align: center;
+        background-color: honeydew;
+        color: teal;
+        padding: 20px;
+      }
+      .opportunities h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .opportunities ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .opportunities li {
+        margin-bottom: 20px;
+      }
+      .opportunities a {
+        text-decoration: none;
+        color: teal;
+      }
+      .opportunities a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+  
+	<header>
+        <div class="gig-text">GIT.IT.GIRL</div>
+        <div class="dropdown">
+            <div class="account-text" id="account-text">Account</div>
+            <div class="dropdown-menu">
+                <a href="savedevents.html">Saved Events</a>
+                <a href="signin.html">Sign In</a>
+                <a href="signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+	
+    <div class="opportunities">
+      
+      <h1>Tech Jobs</h1>
+      <ul>
+        <li>
+          <h3>Senior Project Manager, Mandiant Consulting, Google Cloud - New York, NY, USA</h3>
+          <p>
+            As a Senior Project Manager, you will be an integral part of the Mandiant Consulting organization. In this role, you will help us drive exceptional project delivery, create valued and trusted partnerships, and support streamlined project delivery for growth and scalability.
+          </p>
+          <p>
+            <a href="https://www.google.com/about/careers/applications/jobs/results/122486469022360262-senior-project-manager-mandiant-consulting-google-cloud" target="_blank">Learn More</a>
+          </p>
+        </li>
+        <li>
+          <h3>Sr. Software Dev Engineer, Amazon Governance and Controllership Tools - Seattle, WA, USA</h3>
+          <p>
+            Amazon Finance Technology Team is looking for a Senior Software Development Engineer, who can help us create the next generation of distributed, scalable financial systems.
+		  </p>
+          <p>
+            <a href="https://jobs-us-west.amazon.com/en-gb/jobs/2454673/sr-software-dev-engineer-amazon-governance-and-controllership-tools" target="_blank">Learn More</a>
+          </p>
+        </li>
+        <li>
+          <h3>Internship, Software Integration Engineer, Autopilot - PALO ALTO, California, USA</h3>
+          <p>
+            In this role you will work across multiple functions to ensure seamless integration of Autonomy features with vehicle and telemetry systems, enable functionality on exciting new vehicle and robotics platforms, and implement innovative features that leverage the power of Tesla AI. 
+          </p>
+          <p>
+            <a href="https://www.tesla.com/careers/search/job/-internship-software-integration-engineer-autopilot-summer-2024-217593" target="_blank">Learn More</a>
+          </p>
+        </li>
+        <!-- Add more job opportunities here -->
+      </ul>
+    </div>
+	
+	<header>
+  <div class="side-panel">
+    <a href="home.html">Home</a>
+    <a href="events.html">Events</a>
+    <a href="opportunities.html">Opportunities</a>
+    <a href="material.html">Material</a>
+    <a href="aboutus.html">About Us</a>
+  </div>
+  </header>
+  </body>
+</html>
